@@ -1,0 +1,41 @@
+
+.cards
+{
+    margin:1.5rem 2.6rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    flex-direction: row;
+}
+.card{
+  margin:1.2rem 0.8rem;
+ 
+}
+h1{
+  text-align: center;
+  margin-top: 1.2rem;
+}
+span{
+  color:#0064ff;
+  text-decoration: underline;
+}
+.navbar
+{
+  display: flex;
+  justify-content: center;
+  background-color:black;
+  color:white;
+
+}
+ul button{
+  display: inline-flex;
+ margin: 0rem 2rem;
+ margin-top: 1.2rem;
+ background: none;
+ border: none;
+ color: white;
+}
+ul button:hover
+{
+  text-decoration: underline;
+
+}
