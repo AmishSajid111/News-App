@@ -65,7 +65,7 @@ const searchNews = async () => {
       <div class="card-body">
       <h5 class="card-title">${articles[i]["title"]}</h5>
       <p class="card-text">${articles[i]["description"]}</p>
-      <a href=${hrefurl} class="btn btn-primary">Read more</a>
+      <a href=${hrefurl} target='_blank' class="btn btn-primary">Read more</a>
       
       </div>
       </div>`;

@@ -2,9 +2,14 @@
 .cards
 {
     margin:1.5rem 2.6rem;
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto;
+
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    text-align: center;
+    justify-content: center;
+    
 }
 .card{
   margin:1.2rem 0.8rem;
@@ -26,16 +31,21 @@ span{
   color:white;
 
 }
-ul button{
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul li{
   display: inline-flex;
- margin: 0rem 2rem;
- margin-top: 1.2rem;
+  margin: 0rem 2rem;
+ margin-top: 1.2rem; 
  background: none;
  border: none;
  color: white;
 }
-ul button:hover
+ul li:hover
 {
   text-decoration: underline;
-
+  cursor: pointer;
 }
